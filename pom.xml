@@ -13,6 +13,7 @@
 		<maven-compiler-plugin-version>3.1</maven-compiler-plugin-version>
 		<maven-jar-plugin-version>2.4</maven-jar-plugin-version>
 		<maven-assembly-plugin-version>2.4</maven-assembly-plugin-version>
+		<jython-compile-maven-plugin-version>1.1</jython-compile-maven-plugin-version>
 		<jython-standalone-version>2.5.3</jython-standalone-version>
 	</properties>
 
@@ -59,7 +60,7 @@
 			<plugin>
 				<groupId>net.sf.mavenjython</groupId>
 				<artifactId>jython-compile-maven-plugin</artifactId>
-				<version>1.1</version>
+				<version>${jython-compile-maven-plugin-version}</version>
 				<executions>
 					<execution>
 						<phase>compile</phase>
